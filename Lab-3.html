@@ -1,23 +1,43 @@
+<!DOCTYPE html>
 <html>
     <head>
        <title> INST377 Lab 3 - Angelo  </title> 
+       <link rel="stylesheet" href="Lab-3.css">
     </head>
-    <style>
-        .HeadandFoot {
-            background-color: rgb(111, 111, 249);
-           text-align: center;
-           margin: 10px;
-           padding: 10px;
-        }
-    </style>
     <body>
-        <div class="HeadandFoot">
+        <div class="head-foot">
             <h1> Lab 3 - Rock, Paper, Scissors</h1>
-            
         </div>
-        <footer class="HeadandFoot">
-                <P>Created by Angelo  - February 2026</P>
-            </footer>
+        <div class="nav">
+            <nav>
+                <a href="https://testudo.umd.edu">Testudo</a>
+                <a href="https://www.wikipedia.org">Wikipedia</a>
+                <a href="https://www.whatbeatsrock.com">Whatbeatsrock</a>
+            </nav>
+        </div>
+        <div class="container">
+            <div class="sidebar">
+                <h3 style="text-decoration: underline;">Rules</h3>
+                <h4>Must choose one of Rock, Paper or Scissors</h4>
+                <h4>Winning Combinations </h4>
+                <p>Rock beats Scissors<br><br>Paper beats Rock</p>
+                <p>Scissors beats Paper</p>
+            </div>
+            <div class="main-content">
+               <label for="name">Name:</label>
+               <input type="text" id="name" required><br><br>
+               <label for="select">Your Choice</label>
+               <select id="select" required>
+                <option>Rock</option>
+                <option>Paper</option>
+                <option>Scissors</option>
+               </select><br><br>
+               <button type="submit" id="submitButton">Submit</button>
+            </div>
+        </div>
+        <footer class="head-foot">
+                <p>Created by Angelo  - February 2026</p>
+        </footer>
     </body>
 
 </html>

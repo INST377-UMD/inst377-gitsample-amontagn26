@@ -1,0 +1,28 @@
+body {
+    background-color: antiquewhite;
+}
+.container{
+    border: 1px black solid;
+}
+.main-section {
+    background-color: aquamarine;
+    padding: 12px;
+    border: 1px black solid;
+    float:left;
+    width: 60%
+}
+
+.sidebar{
+    background-color: chartreuse;
+    padding: 12px;
+    border: 1px black solid;
+    float:right;
+    width:30%
+}
+
+footer{
+    background-color: rgb(181, 116, 201);
+    padding: 12px;
+    border: 1px black solid;
+    clear:both
+}

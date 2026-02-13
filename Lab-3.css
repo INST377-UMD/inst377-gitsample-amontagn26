@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(152, 238, 238);
+    font-family:'Times New Roman', Times, serif
+}
+.nav{
+    
+    background-color: rgb(34, 0, 252);
+    border: solid black;
+    padding: 5px;
+    margin: 5px;
+    
+}
+.nav a{
+    color: aliceblue;
+}
+.nav a:hover{
+    background-color: crimson;
+    padding:5px;
+}
+.container{
+    border: 1px;
+}
+.head-foot{
+    background-color: burlywood;
+    padding: 12px;
+    border: solid black;
+    text-align: center;
+    clear:both;
+}
+.main-content{
+    background-color: coral;
+    border: solid black;
+    padding: 12px;
+    margin: 5px;
+    float:left;
+    width: 60%;
+}
+.sidebar{
+    background-color: azure;
+    padding: 12px;
+    margin: 5px;
+    border: solid black;
+    float:right;
+    width:30%
+}
+.sidebar:hover{
+    background-color: rgb(150, 93, 205);
+}
+#name:focus{
+    width: 45%;
+}
+#submitButton{
+    background-color: cadetblue;
+    padding:5px
+}
+#submitButton:hover{
+    background-color: chartreuse;
+}
